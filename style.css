@@ -14333,7 +14333,7 @@ body.search-active #primary-search-wrapper .search-toggle:focus,
 .navigation-full-screen .fullscreen-menu-inside-wrapper .site-title a:focus,
 #primary-search-wrapper .search-toggle:hover,
 #primary-search-wrapper .search-toggle:focus {
-  color: #1446A0;
+  color: #2176FF;
 }
 
 /* Header Navigation Hover Color */
@@ -14345,7 +14345,7 @@ body.search-active #primary-search-wrapper .search-toggle:focus,
 .absolute-header.navigation-classic .main-navigation ul ul a:focus,
 .scroll-down:hover,
 .scroll-down:focus {
-  color: #1446A0;
+  color: #2176FF;
 }
 
 /* Secondary Link Hover Color */
@@ -14367,13 +14367,13 @@ body.search-active #primary-search-wrapper .search-toggle:focus,
 .woocommerce .woocommerce-breadcrumb a:focus,
 #fullscreen-menu-right-wrap li a:hover,
 #fullscreen-menu-right-wrap li a:focus {
-  color: #1446A0;
+  color: #2176FF;
 }
 
 .tagcloud a:hover,
 .tagcloud a:focus,
 #footer-newsletter .ewnewsletter .hentry form input:focus {
-  border-color: #1446A0;
+  border-color: #2176FF;
 }
 
 /* Custom Header and Slider Text Hover Color */
@@ -14381,7 +14381,7 @@ body.search-active #primary-search-wrapper .search-toggle:focus,
 .header-media .entry-title a:focus,
 #feature-slider-section .entry-title a:hover,
 #feature-slider-section .entry-title a:focus {
-  color: #1446A0;
+  color: #2176FF;
 }
 
 /* Other Link Hover Color */
@@ -14389,7 +14389,7 @@ body.search-active #primary-search-wrapper .search-toggle:focus,
 .woocommerce-tabs ul.tabs li.active a,
 .woocommerce-info, .woocommerce-message,
 .woocommerce-error {
-  border-color: #1446A0;
+  border-color: #2176FF;
 }
 
 .navigation-modern .menu-inside-wrapper .main-navigation .nav-menu .current_page_item a,
@@ -14406,12 +14406,12 @@ body.search-active #primary-search-wrapper .search-toggle:focus,
 ul > li::marker,
 .entry-meta .job-label,
 .entry-meta .position {
-  color: #1446A0;
+  color: #2176FF;
 }
 
 body button.dropdown-toggle:focus,
 body #menu-toggle:focus {
-  outline-color: #1446A0;
+  outline-color: #2176FF;
 }
 
 .menu-inside-wrapper .main-navigation .nav-menu .current_page_item > a:after,
@@ -14431,7 +14431,7 @@ body #menu-toggle:focus {
 .home .post-wrapper .more-link .readmore:focus::after,
 .recent-blog-content .archive-post-wrap .hentry .more-link .readmore:hover::after,
 .recent-blog-content .archive-post-wrap .hentry .more-link .readmore:focus::after {
-  background-color: #1446A0;
+  background-color: #2176FF;
 }
 
 .site-footer input[type=text]:focus,
@@ -14451,7 +14451,7 @@ body #menu-toggle:focus {
 .site-footer input[type=color]:focus,
 .site-footer textarea:focus,
 .site-footer select:focus {
-  box-shadow: 0 1px 0 0 #1446A0;
+  box-shadow: 0 1px 0 0 #2176FF;
 }
 
 /* Absolute Header Navigation Hover Color */
@@ -14459,7 +14459,7 @@ body #menu-toggle:focus {
 .absolute-header .menu-toggle:focus,
 .absolute-header .scroll-down:hover,
 .absolute-header .scroll-down:focus {
-  color: #1446A0;
+  color: #2176FF;
 }
 
 @media only screen and (min-width: 48em) {
@@ -14467,13 +14467,13 @@ body #menu-toggle:focus {
 #fullscreen-menu-toggle:focus,
 .absolute-header #fullscreen-menu-toggle:hover,
 .absolute-header #fullscreen-menu-toggle:focus {
-    color: #1446A0;
+    color: #2176FF;
   }
 }
 @media only screen and (min-width: 75em) {
   .absolute-header.navigation-classic .main-navigation a:hover,
 .absolute-header.navigation-classic .main-navigation a:focus {
-    color: #1446A0;
+    color: #2176FF;
   }
 }
 /* Border Color */
@@ -14664,14 +14664,14 @@ nav.navigation.posts-navigation .nav-links a,
 .pagination .page-numbers.prev,
 .pagination .page-numbers.next,
 .playlist-section .mejs-playpause-button {
-  background-image: linear-gradient(to right, #1446A0, #A4303F);
+  background-image: linear-gradient(to right, #2176FF, #388659);
 }
 
 button[type=submit].search-submit.search-focused,
 .demo_store,
 .wp-playlist .mejs-controls .mejs-time-rail .mejs-time-current,
 .wp-playlist .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
-  background-color: #1446A0;
+  background-color: #2176FF;
 }
 
 /* Button Text Color */
@@ -14777,7 +14777,7 @@ nav.navigation.posts-navigation .nav-links a:focus,
 .pagination .page-numbers.next:focus,
 .playlist-section .mejs-playpause-button:hover,
 .playlist-section .mejs-playpause-button:focus {
-  background-image: linear-gradient(to right, #A4303F, #1446A0);
+  background-image: linear-gradient(to right, #388659, #2176FF);
 }
 
 .sticky-post,
@@ -14788,7 +14788,7 @@ span.sticky-post:before,
 .hover-add-to-cart .woocommerce .product-container .wc-forward,
 .onsale,
 #timeline-section .hentry:before {
-  background-image: linear-gradient(to right, #A4303F, #1446A0);
+  background-image: linear-gradient(to right, #388659, #2176FF);
 }
 
 button[type=submit]:hover,
@@ -14797,7 +14797,7 @@ button[type=submit]:focus,
 .search-form .search-field ~ .focus-border:after,
 .search-form .search-field ~ .focus-border i:before,
 .search-form .search-field ~ .focus-border i:after {
-  background-color: #1446A0;
+  background-color: #2176FF;
 }
 
 /* Button Text Hover Color */
