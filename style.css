@@ -14673,7 +14673,7 @@ nav.navigation.posts-navigation .nav-links a,
 .pagination .page-numbers.prev,
 .pagination .page-numbers.next,
 .playlist-section .mejs-playpause-button {
-  background-image: linear-gradient(to right, #388659, #388659);
+  background-image: linear-gradient(to right, #388659, #59D48C);
 }
 
 button[type=submit].search-submit.search-focused,
@@ -14786,7 +14786,7 @@ nav.navigation.posts-navigation .nav-links a:focus,
 .pagination .page-numbers.next:focus,
 .playlist-section .mejs-playpause-button:hover,
 .playlist-section .mejs-playpause-button:focus {
-  background-image: linear-gradient(to right, #388659, #388659);
+  background-image: linear-gradient(to right, #388659, #59D48C);
 }
 
 .sticky-post,
@@ -14797,7 +14797,7 @@ span.sticky-post:before,
 .hover-add-to-cart .woocommerce .product-container .wc-forward,
 .onsale,
 #timeline-section .hentry:before {
-  background-image: linear-gradient(to right, #388659, #388659);
+  background-image: linear-gradient(to right, #388659, #59D48C);
 }
 
 button[type=submit]:hover,
@@ -14806,7 +14806,7 @@ button[type=submit]:focus,
 .search-form .search-field ~ .focus-border:after,
 .search-form .search-field ~ .focus-border i:before,
 .search-form .search-field ~ .focus-border i:after {
-  background-color: #388659;
+  background-color: #59D48C;
 }
 
 /* Button Text Hover Color */
