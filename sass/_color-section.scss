@@ -5,7 +5,7 @@
 /* Background Color */
 
 body {
-    background-color: map-get($theme-background-color, background-color);
+  background-color: map-get($theme-background-color, background-color);
 }
 
 /* Page Background Color */
@@ -37,14 +37,14 @@ select,
 #fullscreen-menu-toggle:hover,
 #fullscreen-menu-toggle:focus,
 .navigation-full-screen .header-blank {
-    background-color: map-get($theme-background-color, page-background-color);
+  background-color: map-get($theme-background-color, page-background-color);
 }
 
 #floating-social .social-navigation a:hover,
 #floating-social .social-navigation a:focus,
 #fullscreen-menu-toggle,
 body.search-active #primary-search-wrapper .search-toggle {
-    color: map-get($theme-background-color, page-background-color);
+  color: map-get($theme-background-color, page-background-color);
 }
 
 /* Primary Background Color */
@@ -58,14 +58,14 @@ body.boxed-layout,
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active,
 .stats-section .view-all-button .more-button .more-link {
-    background-color: map-get($theme-background-color, primary-background-color);
+  background-color: map-get($theme-background-color, primary-background-color);
 }
 
 @include media(large) {
-    .navigation-classic .nav-menu .sub-menu,
-    .navigation-classic .nav-menu .children {
-       background-color: map-get($theme-background-color, primary-background-color);
-    }
+  .navigation-classic .nav-menu .sub-menu,
+  .navigation-classic .nav-menu .children {
+    background-color: map-get($theme-background-color, primary-background-color);
+  }
 }
 
 /* Secondary Background Color */
@@ -123,7 +123,7 @@ pre,
 .site-footer select,
 .team-content-wrapper .entry-container,
 .wp-playlist .wp-playlist-current-item {
-    background-color: map-get($theme-background-color, secondary-background-color);
+  background-color: map-get($theme-background-color, secondary-background-color);
 }
 
 /* Main Text Color */
@@ -142,25 +142,25 @@ div#footer-menu-section ul li a,
 .post-navigation .meta-nav,
 .mejs-controls .mejs-time,
 #primary-search-wrapper .search-container button {
-    color: map-get($theme-color, main-text-color);
+  color: map-get($theme-color, main-text-color);
 }
 
 .section .owl-carousel .owl-dots button {
-     background-color: map-get($theme-color, main-text-color);
+  background-color: map-get($theme-color, main-text-color);
 }
 
 /* Site Branding Color  */
 
 .site-title a,
 .site-description {
-    color: map-get($theme-color, site-branding-color);
+  color: map-get($theme-color, site-branding-color);
 }
 
 /* Absolute Site Branding Color */
 
 .absolute-header .site-title a,
 .absolute-header .site-description {
-    color: map-get($theme-color, absolute-site-branding-color);
+  color: map-get($theme-color, absolute-site-branding-color);
 }
 
 /* Header Navigation Color */
@@ -171,13 +171,13 @@ div#footer-menu-section ul li a,
 .absolute-header.navigation-classic .main-navigation ul ul a,
 .dropdown-toggle,
 .scroll-down {
-    color: map-get($theme-color, header-navigation-color);
+  color: map-get($theme-color, header-navigation-color);
 }
 
 @include media(tablet) {
-    #fullscreen-menu-toggle {
-       color: map-get($theme-color, heading-text-color);
-    }
+  #fullscreen-menu-toggle {
+    color: map-get($theme-color, heading-text-color);
+  }
 }
 
 /* Absolute Header Navigation Color */
@@ -188,23 +188,23 @@ div#footer-menu-section ul li a,
 #feature-slider-section .entry-meta a,
 body:not(.home) .custom-header .entry-meta a,
 .color-scheme-wedding .section-subtitle {
-    color: map-get($theme-color, absolute-header-navigation-color);
+  color: map-get($theme-color, absolute-header-navigation-color);
 }
 
 .color-scheme-wedding #floating-social .social-navigation a {
-    background-color: map-get($theme-color, absolute-header-navigation-color);
+  background-color: map-get($theme-color, absolute-header-navigation-color);
 }
 
 @include media(tablet) {
-    .absolute-header #fullscreen-menu-toggle {
-       color: map-get($theme-color, absolute-header-navigation-color);
-    }
+  .absolute-header #fullscreen-menu-toggle {
+    color: map-get($theme-color, absolute-header-navigation-color);
+  }
 }
 
 @include media(large) {
-    .absolute-header.navigation-classic .main-navigation a {
-        color: map-get($theme-color, absolute-header-navigation-color);
-    }
+  .absolute-header.navigation-classic .main-navigation a {
+    color: map-get($theme-color, absolute-header-navigation-color);
+  }
 }
 
 /* Heading Text Color */
@@ -220,7 +220,7 @@ blockquote,
 .drop-cap:first-letter,
 .package-month,
 .pricing-section .highlight .package-amount,
-.pricing-section .highlight .package-price  sup,
+.pricing-section .highlight .package-price sup,
 .pricing-section .highlight .entry-content,
 .pricing-section .highlight .entry-summary,
 .pricing-section .highlight .entry-title a,
@@ -241,7 +241,7 @@ thead th,
 button[type="submit"].search-submit,
 .navigation-full-screen .fullscreen-menu-inside-wrapper .site-title a,
 .navigation-full-screen .fullscreen-menu-inside-wrapper .site-description {
-    color: map-get($theme-color, heading-text-color);
+  color: map-get($theme-color, heading-text-color);
 }
 
 
@@ -249,13 +249,13 @@ button[type="submit"].search-submit,
 #floating-social .social-navigation a:focus,
 #fullscreen-menu-toggle,
 body.search-active #primary-search-wrapper .search-toggle {
-    background-color: map-get($theme-color, heading-text-color);
+  background-color: map-get($theme-color, heading-text-color);
 }
 
 @include media(tablet) {
-    .absolute-header.menu-open #fullscreen-menu-toggle {
-       color: map-get($theme-color, heading-text-color);
-    }
+  .absolute-header.menu-open #fullscreen-menu-toggle {
+    color: map-get($theme-color, heading-text-color);
+  }
 }
 
 /* Link Color */
@@ -284,18 +284,18 @@ td#today,
 .demo_store .woocommerce-store-notice__dismiss-link,
 .wp-playlist.wp-audio-playlist .wp-playlist-caption,
 .wp-playlist-item .wp-playlist-item-length {
-    color: map-get($theme-color, link-color);
+  color: map-get($theme-color, link-color);
 }
 
 .services-section.section .hentry .hentry-inner .post-thumbnail a:before {
-    border-color: map-get($theme-color, link-color);
+  border-color: map-get($theme-color, link-color);
 }
 
 .owl-carousel .owl-dot,
 .post-wrapper .more-link .readmore:after,
 .section .owl-carousel .owl-dots button:hover,
 .section .owl-carousel .owl-dots button:focus {
-    background-color: map-get($theme-color, link-color);
+  background-color: map-get($theme-color, link-color);
 }
 
 /* Secondary Link Color */
@@ -310,7 +310,7 @@ td#today,
 .woocommerce .woocommerce-breadcrumb a,
 #fullscreen-menu-right-wrap li a,
 .filter-button-group .button {
-    color: map-get($theme-color, secondary-link-color);
+  color: map-get($theme-color, secondary-link-color);
 }
 
 /* Link Hover Color */
@@ -326,7 +326,7 @@ div#footer-menu-section ul li a,
 .widget .ui-state-default a,
 .widget .ui-widget-content .ui-state-default a,
 .widget .ui-widget-header .ui-state-default a,
-.archive-content-wrap .section-content-wrapper.layout-one .entry-container>.entry-meta .posted-on a,
+.archive-content-wrap .section-content-wrapper.layout-one .entry-container > .entry-meta .posted-on a,
 .more-link .readmore,
 #testimonial-content-section button,
 .site-header-menu button,
@@ -351,10 +351,10 @@ body.search-active #primary-search-wrapper .search-toggle,
 .absolute-header.menu-open #fullscreen-menu-toggle,
 .navigation-full-screen .fullscreen-menu-inside-wrapper .site-title a,
 #primary-search-wrapper .search-toggle {
-    &:hover,
-    &:focus {
-        color: map-get($theme-color, link-hover-color);
-    }
+  &:hover,
+  &:focus {
+    color: map-get($theme-color, link-hover-color);
+  }
 }
 
 /* Header Navigation Hover Color */
@@ -367,7 +367,7 @@ body.search-active #primary-search-wrapper .search-toggle,
 .absolute-header.navigation-classic .main-navigation ul ul a:focus,
 .scroll-down:hover,
 .scroll-down:focus {
-    color: map-get($theme-color, link-hover-color);
+  color: map-get($theme-color, link-hover-color);
 }
 
 /* Secondary Link Hover Color */
@@ -390,13 +390,13 @@ body.search-active #primary-search-wrapper .search-toggle,
 .woocommerce .woocommerce-breadcrumb a:focus,
 #fullscreen-menu-right-wrap li a:hover,
 #fullscreen-menu-right-wrap li a:focus {
-    color: map-get($theme-color, link-hover-color);
+  color: map-get($theme-color, link-hover-color);
 }
 
 .tagcloud a:hover,
 .tagcloud a:focus,
 #footer-newsletter .ewnewsletter .hentry form input:focus {
-    border-color: map-get($theme-color, link-hover-color);
+  border-color: map-get($theme-color, link-hover-color);
 }
 
 /* Custom Header and Slider Text Hover Color */
@@ -404,7 +404,7 @@ body.search-active #primary-search-wrapper .search-toggle,
 .header-media .entry-title a:focus,
 #feature-slider-section .entry-title a:hover,
 #feature-slider-section .entry-title a:focus {
-    color: map-get($theme-color, link-hover-color);
+  color: map-get($theme-color, link-hover-color);
 }
 
 /* Other Link Hover Color */
@@ -412,7 +412,7 @@ body.search-active #primary-search-wrapper .search-toggle,
 .woocommerce-tabs ul.tabs li.active a,
 .woocommerce-info, .woocommerce-message,
 .woocommerce-error {
-    border-color: map-get($theme-color, link-hover-color);
+  border-color: map-get($theme-color, link-hover-color);
 }
 
 .navigation-modern .menu-inside-wrapper .main-navigation .nav-menu .current_page_item a,
@@ -429,12 +429,12 @@ body.search-active #primary-search-wrapper .search-toggle,
 ul > li::marker,
 .entry-meta .job-label,
 .entry-meta .position {
-    color: map-get($theme-color, link-hover-color);
+  color: map-get($theme-color, link-hover-color);
 }
 
 body button.dropdown-toggle:focus,
 body #menu-toggle:focus {
-    outline-color: map-get($theme-color, link-hover-color);
+  outline-color: map-get($theme-color, link-hover-color);
 }
 
 .menu-inside-wrapper .main-navigation .nav-menu .current_page_item > a:after,
@@ -454,7 +454,7 @@ body #menu-toggle:focus {
 .home .post-wrapper .more-link .readmore:focus::after,
 .recent-blog-content .archive-post-wrap .hentry .more-link .readmore:hover::after,
 .recent-blog-content .archive-post-wrap .hentry .more-link .readmore:focus::after {
-    background-color: map-get($theme-color, link-hover-color);
+  background-color: map-get($theme-color, link-hover-color);
 }
 
 .site-footer input[type="text"]:focus,
@@ -474,7 +474,7 @@ body #menu-toggle:focus {
 .site-footer input[type="color"]:focus,
 .site-footer textarea:focus,
 .site-footer select:focus {
-    box-shadow: 0 1px 0 0 map-get($theme-color, link-hover-color);
+  box-shadow: 0 1px 0 0 map-get($theme-color, link-hover-color);
 }
 
 /* Absolute Header Navigation Hover Color */
@@ -483,23 +483,23 @@ body #menu-toggle:focus {
 .absolute-header .menu-toggle:focus,
 .absolute-header .scroll-down:hover,
 .absolute-header .scroll-down:focus {
-    color: map-get($theme-color, link-hover-color);
+  color: map-get($theme-color, link-hover-color);
 }
 
 @include media(tablet) {
-    #fullscreen-menu-toggle:hover,
-    #fullscreen-menu-toggle:focus,
-    .absolute-header #fullscreen-menu-toggle:hover,
-    .absolute-header #fullscreen-menu-toggle:focus {
-       color: map-get($theme-color, link-hover-color);
-    }
+  #fullscreen-menu-toggle:hover,
+  #fullscreen-menu-toggle:focus,
+  .absolute-header #fullscreen-menu-toggle:hover,
+  .absolute-header #fullscreen-menu-toggle:focus {
+    color: map-get($theme-color, link-hover-color);
+  }
 }
 
 @include media(large) {
-    .absolute-header.navigation-classic .main-navigation a:hover,
-    .absolute-header.navigation-classic .main-navigation a:focus {
-        color: map-get($theme-color, link-hover-color);
-    }
+  .absolute-header.navigation-classic .main-navigation a:hover,
+  .absolute-header.navigation-classic .main-navigation a:focus {
+    color: map-get($theme-color, link-hover-color);
+  }
 }
 
 /* Border Color */
@@ -596,12 +596,12 @@ header .site-header-menu .menu-inside-wrapper .main-navigation .children li:last
 #fullscreen-menu-left-wrap + #fullscreen-menu-right-wrap,
 body .wp-playlist-item,
 .mejs-container.mejs-container .mejs-controls {
-    border-color: map-get($theme-color, border-color);
+  border-color: map-get($theme-color, border-color);
 }
 
 #timeline-section .section-content-wrapper:before,
 #floating-social .social-navigation a {
-   background-color: map-get($theme-color, border-color);
+  background-color: map-get($theme-color, border-color);
 }
 
 /* Tertiary Text Color */
@@ -632,23 +632,23 @@ body .wp-playlist-item,
 .home .post-wrapper .more-link .readmore,
 .recent-blog-content .archive-post-wrap .hentry .more-link .readmore,
 .color-scheme-wedding #floating-social .social-navigation a {
-    color: map-get($theme-color, tertiary-text-color);
+  color: map-get($theme-color, tertiary-text-color);
 }
 
 .home .post-wrapper .more-link .readmore:after,
 .recent-blog-content .archive-post-wrap .hentry .more-link .readmore:after,
 #feature-slider-section .owl-carousel .owl-dots button.active {
-    background-color: map-get($theme-color, tertiary-text-color);
+  background-color: map-get($theme-color, tertiary-text-color);
 }
 
 #feature-slider-section .owl-carousel .owl-dots button.active::before {
-    border-top-color: map-get($theme-color, tertiary-text-color);
-    border-right-color: map-get($theme-color, tertiary-text-color);
-    border-bottom-color: map-get($theme-color, tertiary-text-color);
+  border-top-color: map-get($theme-color, tertiary-text-color);
+  border-right-color: map-get($theme-color, tertiary-text-color);
+  border-bottom-color: map-get($theme-color, tertiary-text-color);
 }
 
 #feature-slider-section .owl-carousel .owl-dots button.active::after {
-    border-top-color: map-get($theme-color, tertiary-text-color);
+  border-top-color: map-get($theme-color, tertiary-text-color);
 }
 
 /*  Custom Header and Slider Text Color */
@@ -662,7 +662,7 @@ body .wp-playlist-item,
 #feature-slider-section .entry-summary,
 .header-media .section-subtitle,
 #feature-slider-section .section-subtitle {
-    color: map-get($theme-color, custom-header-slider-text-color);
+  color: map-get($theme-color, custom-header-slider-text-color);
 }
 
 /* Gradient Button Background Color */
@@ -683,7 +683,7 @@ nav.navigation.posts-navigation .nav-links a,
 #footer-newsletter .ewnewsletter .hentry form input[type="submit"],
 .scrollup a,
 .section .owl-carousel .owl-dots button.active,
-.menu-inside-wrapper #site-header-cart-wrappe li>a,
+.menu-inside-wrapper #site-header-cart-wrappe li > a,
 .woocommerce-pagination ul.page-numbers li .page-numbers.current,
 .archive-content-wrap .pagination .page-numbers.current,
 .cart-collaterals .shop_table.shop_table_responsive .cart-subtotal,
@@ -695,41 +695,70 @@ nav.navigation.posts-navigation .nav-links a,
 .pagination .page-numbers.next,
 .playlist-section .mejs-playpause-button {
 
-    background: linear-gradient(90deg, map-get($button-color, gradient-button-background-color-first), map-get($button-color, gradient-button-background-color-second));
-    background-size: 400% 400%;
+  background: linear-gradient(90deg, map-get($button-color, gradient-button-background-color-first), map-get($button-color, gradient-button-background-color-second));
+  background-size: 400% 400%;
 
-    -webkit-animation: gradientAnimation 33s ease infinite;
-    -moz-animation: gradientAnimation 33s ease infinite;
-    -o-animation: gradientAnimation 33s ease infinite;
-    animation: gradientAnimation 33s ease infinite;
+  -webkit-animation: gradientAnimation 33s ease infinite;
+  -moz-animation: gradientAnimation 33s ease infinite;
+  -o-animation: gradientAnimation 33s ease infinite;
+  animation: gradientAnimation 33s ease infinite;
+
+  transition: background-color 0.25s;
 }
 
 @-webkit-keyframes gradientAnimation {
-    0%{background-position:0% 51%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 51%}
+  0% {
+    background-position: 0 51%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0 51%
+  }
 }
+
 @-moz-keyframes gradientAnimation {
-    0%{background-position:0% 51%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 51%}
+  0% {
+    background-position: 0 51%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0 51%
+  }
 }
+
 @-o-keyframes gradientAnimation {
-    0%{background-position:0% 51%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 51%}
+  0% {
+    background-position: 0 51%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0 51%
+  }
 }
+
 @keyframes gradientAnimation {
-    0%{background-position:0% 51%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 51%}
+  0% {
+    background-position: 0 51%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0 51%
+  }
 }
 
 button[type="submit"].search-submit.search-focused,
 .demo_store,
 .wp-playlist .mejs-controls .mejs-time-rail .mejs-time-current,
 .wp-playlist .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
-    background-color: map-get($button-color, gradient-button-background-color-first);
+  background-color: map-get($button-color, gradient-button-background-color-first);
 }
 
 /* Button Text Color */
@@ -765,10 +794,10 @@ span.onsale,
 .slider-content-wrapper #featured-slider-next:hover:before,
 .slider-content-wrapper #featured-slider-prev:focus:before,
 .slider-content-wrapper #featured-slider-next:focus:before,
-.nav-menu .menu-item-has-children>a:hover:before,
-.nav-menu .menu-item-has-children>a:focus:before,
-.nav-menu .menu_item_has_children>a:hover:before,
-.nav-menu .menu_item_has_children>a:focus:before,
+.nav-menu .menu-item-has-children > a:hover:before,
+.nav-menu .menu-item-has-children > a:focus:before,
+.nav-menu .menu_item_has_children > a:hover:before,
+.nav-menu .menu_item_has_children > a:focus:before,
 .cart-collaterals .shop_table.shop_table_responsive .cart-subtotal,
 .playlist-section .wp-playlist .mejs-controls button,
 #feature-slider-section .owl-prev,
@@ -779,11 +808,11 @@ span.onsale,
 button[type="submit"].search-submit.search-focused,
 .demo_store,
 #primary-search-wrapper .search-container button.search-focused {
-    color: map-get($button-color, button-text-color);
+  color: map-get($button-color, button-text-color);
 }
 
 .absolute-header .bars {
-    background-color: map-get($button-color, button-text-color);
+  background-color: map-get($button-color, button-text-color);
 }
 
 /* Button Background Hover Color */
@@ -813,10 +842,10 @@ nav.navigation.posts-navigation .nav-links a,
 .pagination .page-numbers.prev,
 .pagination .page-numbers.next,
 .playlist-section .mejs-playpause-button {
-    &:hover,
-    &:focus {
-        background-image: linear-gradient(to right, map-get($button-color, gradient-button-background-hover-color-first), map-get($button-color, gradient-button-background-hover-color-second) );
-    }
+  &:hover,
+  &:focus {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
 }
 
 .sticky-post,
@@ -827,7 +856,7 @@ span.sticky-post:before,
 .hover-add-to-cart .woocommerce .product-container .wc-forward,
 .onsale,
 #timeline-section .hentry:before {
-    background-image: linear-gradient(to right, map-get($button-color, gradient-button-background-hover-color-first), map-get($button-color, gradient-button-background-hover-color-second) );
+  background-image: linear-gradient(to right, map-get($button-color, gradient-button-background-hover-color-first), map-get($button-color, gradient-button-background-hover-color-second));
 }
 
 button[type="submit"]:hover,
@@ -836,7 +865,7 @@ button[type="submit"]:focus,
 .search-form .search-field ~ .focus-border:after,
 .search-form .search-field ~ .focus-border i:before,
 .search-form .search-field ~ .focus-border i:after {
-    background-color: map-get($button-color, gradient-button-background-hover-color-second);
+  background-color: map-get($button-color, gradient-button-background-hover-color-second);
 }
 
 /* Button Text Hover Color */
@@ -867,16 +896,16 @@ nav.navigation.posts-navigation .nav-links a,
 .playlist-section .mejs-playpause-button,
 button[type="submit"].search-submit.search-focused,
 #primary-search-wrapper .search-container button {
-    &:hover,
-    &:focus {
-        color: map-get($button-color, button-hover-text-color);
-    }
+  &:hover,
+  &:focus {
+    color: map-get($button-color, button-hover-text-color);
+  }
 }
 
 .woocommerce .product-container .button,
 .woocommerce .product-container .wc-forward,
 .onsale {
-    color: map-get($button-color, button-hover-text-color);
+  color: map-get($button-color, button-hover-text-color);
 }
 
 /*Others*/
@@ -910,16 +939,16 @@ button#wp-custom-header-video-button,
 .woocommerce-loop-category__title .count,
 .footer-widget-area .essential-widgets.ew-newsletter,
 .sidebar .ew-newsletter,
-#footer-newsletter+.section {
-    background: transparent;
+#footer-newsletter + .section {
+  background: transparent;
 }
 
 @include media(tablet) {
-    body #fullscreen-menu-toggle,
-    body #fullscreen-menu-toggle:hover,
-    body #fullscreen-menu-toggle:focus {
-        background: transparent;
-    }
+  body #fullscreen-menu-toggle,
+  body #fullscreen-menu-toggle:hover,
+  body #fullscreen-menu-toggle:focus {
+    background: transparent;
+  }
 }
 
 #feature-slider-section .owl-carousel .owl-dots button.active,
@@ -931,5 +960,5 @@ body #menu-toggle:focus,
 body button.dropdown-toggle:hover,
 body button.dropdown-toggle:focus,
 body #fullscreen-menu-toggle {
-    background-image: none;
+  background-image: none;
 }

@@ -14679,50 +14679,51 @@ nav.navigation.posts-navigation .nav-links a,
   -moz-animation: gradientAnimation 33s ease infinite;
   -o-animation: gradientAnimation 33s ease infinite;
   animation: gradientAnimation 33s ease infinite;
+  transition: background-color 0.25s;
 }
 
 @-webkit-keyframes gradientAnimation {
   0% {
-    background-position: 0% 51%;
+    background-position: 0 51%;
   }
   50% {
     background-position: 100% 50%;
   }
   100% {
-    background-position: 0% 51%;
+    background-position: 0 51%;
   }
 }
 @-moz-keyframes gradientAnimation {
   0% {
-    background-position: 0% 51%;
+    background-position: 0 51%;
   }
   50% {
     background-position: 100% 50%;
   }
   100% {
-    background-position: 0% 51%;
+    background-position: 0 51%;
   }
 }
 @-o-keyframes gradientAnimation {
   0% {
-    background-position: 0% 51%;
+    background-position: 0 51%;
   }
   50% {
     background-position: 100% 50%;
   }
   100% {
-    background-position: 0% 51%;
+    background-position: 0 51%;
   }
 }
 @keyframes gradientAnimation {
   0% {
-    background-position: 0% 51%;
+    background-position: 0 51%;
   }
   50% {
     background-position: 100% 50%;
   }
   100% {
-    background-position: 0% 51%;
+    background-position: 0 51%;
   }
 }
 button[type=submit].search-submit.search-focused,
@@ -14835,7 +14836,7 @@ nav.navigation.posts-navigation .nav-links a:focus,
 .pagination .page-numbers.next:focus,
 .playlist-section .mejs-playpause-button:hover,
 .playlist-section .mejs-playpause-button:focus {
-  background-image: linear-gradient(to right, #59D48C, #FFD48C);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .sticky-post,
