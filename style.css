@@ -14,7 +14,7 @@
 }
 
 .textcenter {
-  text-align: center;
+  text-align: center !important;
 }
 
 /*--------------------------------------------------------------
@@ -14673,7 +14673,7 @@ nav.navigation.posts-navigation .nav-links a,
 .pagination .page-numbers.prev,
 .pagination .page-numbers.next,
 .playlist-section .mejs-playpause-button {
-  background-image: linear-gradient(to right, #388659, #1E2D24);
+  background-image: linear-gradient(to right, #388659, #388659);
 }
 
 button[type=submit].search-submit.search-focused,
@@ -14786,7 +14786,7 @@ nav.navigation.posts-navigation .nav-links a:focus,
 .pagination .page-numbers.next:focus,
 .playlist-section .mejs-playpause-button:hover,
 .playlist-section .mejs-playpause-button:focus {
-  background-image: linear-gradient(to right, #1E2D24, #388659);
+  background-image: linear-gradient(to right, #388659, #388659);
 }
 
 .sticky-post,
@@ -14797,7 +14797,7 @@ span.sticky-post:before,
 .hover-add-to-cart .woocommerce .product-container .wc-forward,
 .onsale,
 #timeline-section .hentry:before {
-  background-image: linear-gradient(to right, #1E2D24, #388659);
+  background-image: linear-gradient(to right, #388659, #388659);
 }
 
 button[type=submit]:hover,
