@@ -9281,7 +9281,7 @@ body.navigation-full-screen.menu-open .fullscreen-menu-inside-wrapper {
   font-size: 21px;
   font-size: 1.3125rem;
   font-weight: 500;
-  text-transform: capitalize;
+  text-transform: none !important;
   padding: 10px 0;
   display: inline-block;
 }
