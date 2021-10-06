@@ -1,0 +1,18 @@
+/*
+ Theme Name:   ScapeShot Mycotra
+ Theme URI:    https://mycotra.ch
+ Description:  Custom child theme for Mycotra
+ Author:       Nicolas Schwab
+ Author URI:   https://mycotra.ch
+ Template:     scapeshot
+ Version:      0.1.0
+*/
+
+.site-header-main {
+	background-color: rgba(0,0,0,0.5);
+	backdrop-filter: blur(5px);
+}
+
+.textcenter {
+	text-align: center;
+}

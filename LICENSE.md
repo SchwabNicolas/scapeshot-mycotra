@@ -1,2 +1,2 @@
 
-Copyright (C) 2021 NicolasSchwab
+Copyright (C) 2021 Nicolas Schwab
