@@ -14836,7 +14836,12 @@ nav.navigation.posts-navigation .nav-links a:focus,
 .pagination .page-numbers.next:focus,
 .playlist-section .mejs-playpause-button:hover,
 .playlist-section .mejs-playpause-button:focus {
-  background-color: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5) linear-gradient(90deg, #388659, #FFD48C) !important;
+  background-size: 400% 400%;
+  -webkit-animation: gradientAnimation 33s ease infinite;
+  -moz-animation: gradientAnimation 33s ease infinite;
+  -o-animation: gradientAnimation 33s ease infinite;
+  animation: gradientAnimation 33s ease infinite;
 }
 
 .sticky-post,
