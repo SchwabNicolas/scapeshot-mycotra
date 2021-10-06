@@ -14673,7 +14673,7 @@ nav.navigation.posts-navigation .nav-links a,
 .pagination .page-numbers.prev,
 .pagination .page-numbers.next,
 .playlist-section .mejs-playpause-button {
-  background: linear-gradient(90deg, #388659, #59D48C);
+  background: linear-gradient(90deg, #388659, #1E2D24);
   background-size: 400% 400%;
   -webkit-animation: gradientAnimation 33s ease infinite;
   -moz-animation: gradientAnimation 33s ease infinite;
@@ -14835,7 +14835,7 @@ nav.navigation.posts-navigation .nav-links a:focus,
 .pagination .page-numbers.next:focus,
 .playlist-section .mejs-playpause-button:hover,
 .playlist-section .mejs-playpause-button:focus {
-  background-image: linear-gradient(to right, #59D48C, #388659);
+  background-image: linear-gradient(to right, #59D48C, #1E2D24);
 }
 
 .sticky-post,
@@ -14846,7 +14846,7 @@ span.sticky-post:before,
 .hover-add-to-cart .woocommerce .product-container .wc-forward,
 .onsale,
 #timeline-section .hentry:before {
-  background-image: linear-gradient(to right, #59D48C, #388659);
+  background-image: linear-gradient(to right, #59D48C, #1E2D24);
 }
 
 button[type=submit]:hover,
@@ -14855,7 +14855,7 @@ button[type=submit]:focus,
 .search-form .search-field ~ .focus-border:after,
 .search-form .search-field ~ .focus-border i:before,
 .search-form .search-field ~ .focus-border i:after {
-  background-color: #388659;
+  background-color: #1E2D24;
 }
 
 /* Button Text Hover Color */
