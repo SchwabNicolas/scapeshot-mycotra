@@ -8,6 +8,15 @@
  Template:     scapeshot
  Version:      0.1.0
 */
+.site-header-main {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.textcenter {
+  text-align: center;
+}
+
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -1631,7 +1640,6 @@ nav.navigation.posts-navigation .nav-links a,
   font-weight: 700;
   letter-spacing: 0;
   line-height: 1.75;
-  text-transform: capitalize;
   text-align: center;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
