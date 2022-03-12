@@ -250,7 +250,10 @@ button[type="submit"].search-submit,
 
 #floating-social .social-navigation a:hover,
 #floating-social .social-navigation a:focus,
-#fullscreen-menu-toggle,
+#fullscreen-menu-toggle {
+  background-color: map-get($theme-background-color, page-background-color);
+}
+
 body.search-active #primary-search-wrapper .search-toggle {
   background-color: transparent;
 }

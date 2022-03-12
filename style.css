@@ -14209,7 +14209,10 @@ button[type=submit].search-submit,
 
 #floating-social .social-navigation a:hover,
 #floating-social .social-navigation a:focus,
-#fullscreen-menu-toggle,
+#fullscreen-menu-toggle {
+  background-color: #000000;
+}
+
 body.search-active #primary-search-wrapper .search-toggle {
   background-color: transparent;
 }
