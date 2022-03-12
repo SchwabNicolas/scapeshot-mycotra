@@ -14681,7 +14681,7 @@ nav.navigation.posts-navigation .nav-links a,
 .pagination .page-numbers.prev,
 .pagination .page-numbers.next,
 .playlist-section .mejs-playpause-button {
-  background: linear-gradient(90deg, #388659, #FFD48C);
+  background: linear-gradient(90deg, #388659, #FFD48C) !important;
   background-size: 400% 400%;
   -webkit-animation: gradientAnimation 33s ease infinite;
   -moz-animation: gradientAnimation 33s ease infinite;
