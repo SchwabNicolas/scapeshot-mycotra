@@ -69,8 +69,7 @@ button:focus,
 input[type="button"]:focus,
 input[type="reset"]:focus,
 input[type="submit"]:focus {
-    outline: thin dotted;
-    outline-offset: -4px;
+    outline: none !important;
 }
 
 .instagram-button {
