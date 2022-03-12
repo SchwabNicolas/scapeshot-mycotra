@@ -14880,7 +14880,7 @@ nav.navigation.posts-navigation .nav-links a:focus,
 .pagination .page-numbers.next:focus,
 .playlist-section .mejs-playpause-button:hover,
 .playlist-section .mejs-playpause-button:focus {
-  background: linear-gradient(90deg, #3d9160, #52d287) !important;
+  background: linear-gradient(90deg, #3d9160, #52d287);
 }
 
 .sticky-post,

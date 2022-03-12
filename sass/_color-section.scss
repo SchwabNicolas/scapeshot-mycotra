@@ -854,7 +854,7 @@ nav.navigation.posts-navigation .nav-links a,
 
   &:hover,
   &:focus {
-    background: linear-gradient(90deg, map-get($button-color, gradient-button-background-hover-color-first), map-get($button-color, gradient-button-background-hover-color-second)) !important;
+    background: linear-gradient(90deg, map-get($button-color, gradient-button-background-hover-color-first), map-get($button-color, gradient-button-background-hover-color-second));
   }
 }
 
