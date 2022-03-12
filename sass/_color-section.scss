@@ -897,6 +897,18 @@ button[type="submit"].search-submit.search-focused,
   }
 }
 
+.hero-section .more-link .readmore {
+  &:hover,
+  &:focus {
+    background: rgba(0, 0, 0, 0.5) linear-gradient(90deg, #388659, #FFD48C) !important;
+    background-size: 400% 400%;
+    -webkit-animation: gradientAnimation 33s ease infinite;
+    -moz-animation: gradientAnimation 33s ease infinite;
+    -o-animation: gradientAnimation 33s ease infinite;
+    animation: gradientAnimation 33s ease infinite;
+  }
+}
+
 .woocommerce .product-container .button,
 .woocommerce .product-container .wc-forward,
 .onsale {
