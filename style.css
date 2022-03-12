@@ -80,6 +80,7 @@
 /**
  * 1.0 - Variables
  */
+/* Import */
 /**
  * 1.1 - Colors
  */
@@ -2124,7 +2125,7 @@ big {
   margin-top: 28px;
 }
 .hero-section .more-link:hover, .hero-section .more-link:focus {
-  background: rgba(0, 0, 0, 0.5) linear-gradient(90deg, #388659, #32C36E) !important;
+  background: rgba(0, 0, 0, 0.5) linear-gradient(90deg, #388659, #49D081) !important;
   background-size: 400% 400%;
   -webkit-animation: gradientAnimation 33s ease infinite;
   -moz-animation: gradientAnimation 33s ease infinite;
@@ -13978,6 +13979,7 @@ body:not(.home) .content-area .site-main,
 /*--------------------------------------------------------------
 # Colors
 --------------------------------------------------------------*/
+/* Import */
 /* Background Color */
 body {
   background-color: #000000;
@@ -14677,7 +14679,7 @@ nav.navigation.posts-navigation .nav-links a,
 #promotion-section .more-link .readmore,
 .pricing-section .more-link .readmore,
 .app-section .more-link .readmore {
-  background: linear-gradient(90deg, #388659, #32C36E) !important;
+  background: linear-gradient(90deg, #388659, #49D081) !important;
   background-size: 400% 400%;
   -webkit-animation: gradientAnimation 33s ease infinite;
   -moz-animation: gradientAnimation 33s ease infinite;
@@ -14698,7 +14700,7 @@ nav.navigation.posts-navigation .nav-links a,
 .pricing-section .more-link .readmore:focus,
 .app-section .more-link .readmore:hover,
 .app-section .more-link .readmore:focus {
-  filter: brightness(105%);
+  background: linear-gradient(90deg, #419d68, #5bd58e) !important;
 }
 
 @-webkit-keyframes gradientAnimation {
@@ -14797,7 +14799,7 @@ span.onsale,
 button[type=submit].search-submit.search-focused,
 .demo_store,
 #primary-search-wrapper .search-container button.search-focused {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .absolute-header .bars {
@@ -14831,6 +14833,55 @@ nav.navigation.posts-navigation .nav-links a,
 .playlist-section .mejs-playpause-button {
   color: #ffffff;
 }
+button:hover, button:focus,
+.button:hover,
+.button:focus,
+input[type=submit]:hover,
+input[type=submit]:focus,
+.view-more .button:hover,
+.view-more .button:focus,
+.header-media .more-link .readmore:hover,
+.header-media .more-link .readmore:focus,
+#feature-slider-section .more-link .readmore:hover,
+#feature-slider-section .more-link .readmore:focus,
+#promotion-section .more-link .readmore:hover,
+#promotion-section .more-link .readmore:focus,
+.pricing-section .more-link .readmore:hover,
+.pricing-section .more-link .readmore:focus,
+.app-section .more-link .readmore:hover,
+.app-section .more-link .readmore:focus,
+#content #infinite-handle span button:hover,
+#content #infinite-handle span button:focus,
+nav.navigation.posts-navigation .nav-links a:hover,
+nav.navigation.posts-navigation .nav-links a:focus,
+.catch-instagram-feed-gallery-widget-wrapper .button:hover,
+.catch-instagram-feed-gallery-widget-wrapper .button:focus,
+#footer-newsletter .ewnewsletter .hentry form input[type=submit]:hover,
+#footer-newsletter .ewnewsletter .hentry form input[type=submit]:focus,
+.slider-content-wrapper .cycle-next:hover,
+.slider-content-wrapper .cycle-next:focus,
+.slider-content-wrapper .cycle-prev:hover,
+.slider-content-wrapper .cycle-prev:focus,
+.woocommerce-pagination ul.page-numbers li .page-numbers:hover,
+.woocommerce-pagination ul.page-numbers li .page-numbers:focus,
+.archive-content-wrap .pagination .page-numbers:hover,
+.archive-content-wrap .pagination .page-numbers:focus,
+.woocommerce a.button:hover,
+.woocommerce a.button:focus,
+.woocommerce button.button:hover,
+.woocommerce button.button:focus,
+#feature-slider-section .owl-prev:hover,
+#feature-slider-section .owl-prev:focus,
+#feature-slider-section .owl-next:hover,
+#feature-slider-section .owl-next:focus,
+.pagination .page-numbers.prev:hover,
+.pagination .page-numbers.prev:focus,
+.pagination .page-numbers.next:hover,
+.pagination .page-numbers.next:focus,
+.playlist-section .mejs-playpause-button:hover,
+.playlist-section .mejs-playpause-button:focus {
+  background: linear-gradient(90deg, #419d68, #5bd58e) !important;
+}
 
 .sticky-post,
 span.sticky-post:after,
@@ -14840,7 +14891,16 @@ span.sticky-post:before,
 .hover-add-to-cart .woocommerce .product-container .wc-forward,
 .onsale,
 #timeline-section .hentry:before {
-  background-image: linear-gradient(to right, #388659, #47A970);
+  background-image: linear-gradient(to right, #388659, #47A970) !important;
+}
+
+button[type=submit]:hover,
+button[type=submit]:focus,
+.search-form .search-field ~ .focus-border:before,
+.search-form .search-field ~ .focus-border:after,
+.search-form .search-field ~ .focus-border i:before,
+.search-form .search-field ~ .focus-border i:after {
+  background-color: #5bd58e !important;
 }
 
 /* Button Text Hover Color */
@@ -14893,7 +14953,7 @@ button[type=submit].search-submit.search-focused:hover,
 button[type=submit].search-submit.search-focused:focus,
 #primary-search-wrapper .search-container button:hover,
 #primary-search-wrapper .search-container button:focus {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .woocommerce .product-container .button,
