@@ -687,7 +687,7 @@ nav.navigation.posts-navigation .nav-links a,
 .pagination .page-numbers.prev,
 .pagination .page-numbers.next,
 .playlist-section .mejs-playpause-button {
-  background-image: linear-gradient(to right, map-get($button-color, gradient-button-background-color-first), map-get($button-color, gradient-button-background-color-second));
+  background-image: linear-gradient(to right, map-get($button-color, discrete-1), map-get($button-color, discrete-2));
 }
 
 .view-more .button,
@@ -765,7 +765,7 @@ button[type="submit"].search-submit.search-focused,
 .demo_store,
 .wp-playlist .mejs-controls .mejs-time-rail .mejs-time-current,
 .wp-playlist .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
-  background-color: map-get($button-color, gradient-button-background-color-first);
+  background-color: map-get($button-color, discrete-1);
 }
 
 /* Button Text Color */
@@ -858,7 +858,7 @@ span.sticky-post:before,
 .hover-add-to-cart .woocommerce .product-container .wc-forward,
 .onsale,
 #timeline-section .hentry:before {
-  background-image: linear-gradient(to right, map-get($button-color, gradient-button-background-hover-color-first), map-get($button-color, gradient-button-background-hover-color-second));
+  background-image: linear-gradient(to right, map-get($button-color, discrete-1), map-get($button-color, discrete-2));
 }
 
 button[type="submit"]:hover,
@@ -909,7 +909,7 @@ button[type="submit"].search-submit.search-focused,
   color: map-get($button-color, button-hover-text-color);
 }
 
-/*Others*/
+/* Others */
 
 .featured-content-section .section-content-wrapper .hentry,
 .services-section .hentry,

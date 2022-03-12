@@ -14674,7 +14674,7 @@ nav.navigation.posts-navigation .nav-links a,
 .pagination .page-numbers.prev,
 .pagination .page-numbers.next,
 .playlist-section .mejs-playpause-button {
-  background-image: linear-gradient(to right, #388659, #FFD48C);
+  background-image: linear-gradient(to right, #388659, #59D48C);
 }
 
 .view-more .button,
@@ -14847,16 +14847,7 @@ span.sticky-post:before,
 .hover-add-to-cart .woocommerce .product-container .wc-forward,
 .onsale,
 #timeline-section .hentry:before {
-  background-image: linear-gradient(to right, #59D48C, #FFD48C);
-}
-
-button[type=submit]:hover,
-button[type=submit]:focus,
-.search-form .search-field ~ .focus-border:before,
-.search-form .search-field ~ .focus-border:after,
-.search-form .search-field ~ .focus-border i:before,
-.search-form .search-field ~ .focus-border i:after {
-  background-color: #FFD48C;
+  background-image: linear-gradient(to right, #388659, #59D48C);
 }
 
 /* Button Text Hover Color */
@@ -14918,7 +14909,7 @@ button[type=submit].search-submit.search-focused:focus,
   color: #ffffff;
 }
 
-/*Others*/
+/* Others */
 .featured-content-section .section-content-wrapper .hentry,
 .services-section .hentry,
 #portfolio-content-section .hentry,
