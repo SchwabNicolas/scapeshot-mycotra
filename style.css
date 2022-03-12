@@ -14211,7 +14211,7 @@ button[type=submit].search-submit,
 #floating-social .social-navigation a:focus,
 #fullscreen-menu-toggle,
 body.search-active #primary-search-wrapper .search-toggle {
-  background-color: #000000;
+  background-color: transparent;
 }
 
 @media only screen and (min-width: 48em) {
