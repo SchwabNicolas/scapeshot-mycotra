@@ -703,6 +703,11 @@ nav.navigation.posts-navigation .nav-links a,
   animation: gradientAnimation 33s ease infinite;
 
   transition: background-color 0.25s;
+
+  &:hover,
+  &:focus {
+    filter: brightness(105%);
+  }
 }
 
 @-webkit-keyframes gradientAnimation {
@@ -771,7 +776,6 @@ button[type="submit"],
 .view-more .button,
 .header-media .more-link .readmore,
 #feature-slider-section .more-link .readmore,
-.hero-section .more-link .readmore,
 #promotion-section .more-link .readmore,
 .pricing-section .more-link .readmore,
 .app-section .more-link .readmore,
@@ -894,13 +898,6 @@ button[type="submit"].search-submit.search-focused,
   &:hover,
   &:focus {
     color: map-get($button-color, button-hover-text-color);
-  }
-}
-
-.hero-section .more-link .readmore {
-  &:hover,
-  &:focus {
-    filter: brightness(105%);
   }
 }
 

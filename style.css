@@ -14689,6 +14689,61 @@ nav.navigation.posts-navigation .nav-links a,
   animation: gradientAnimation 33s ease infinite;
   transition: background-color 0.25s;
 }
+.button:hover, .button:focus,
+button:hover,
+button:focus,
+input[type=submit]:hover,
+input[type=submit]:focus,
+.view-more .button:hover,
+.view-more .button:focus,
+.header-media .more-link .readmore:hover,
+.header-media .more-link .readmore:focus,
+#feature-slider-section .more-link .readmore:hover,
+#feature-slider-section .more-link .readmore:focus,
+.hero-section .more-link .readmore:hover,
+.hero-section .more-link .readmore:focus,
+#promotion-section .more-link .readmore:hover,
+#promotion-section .more-link .readmore:focus,
+.pricing-section .more-link .readmore:hover,
+.pricing-section .more-link .readmore:focus,
+.app-section .more-link .readmore:hover,
+.app-section .more-link .readmore:focus,
+#content #infinite-handle span button:hover,
+#content #infinite-handle span button:focus,
+nav.navigation.posts-navigation .nav-links a:hover,
+nav.navigation.posts-navigation .nav-links a:focus,
+.catch-instagram-feed-gallery-widget-wrapper .button:hover,
+.catch-instagram-feed-gallery-widget-wrapper .button:focus,
+#footer-newsletter .ewnewsletter .hentry form input[type=submit]:hover,
+#footer-newsletter .ewnewsletter .hentry form input[type=submit]:focus,
+.scrollup a:hover,
+.scrollup a:focus,
+.section .owl-carousel .owl-dots button.active:hover,
+.section .owl-carousel .owl-dots button.active:focus,
+.menu-inside-wrapper #site-header-cart-wrappe li > a:hover,
+.menu-inside-wrapper #site-header-cart-wrappe li > a:focus,
+.woocommerce-pagination ul.page-numbers li .page-numbers.current:hover,
+.woocommerce-pagination ul.page-numbers li .page-numbers.current:focus,
+.archive-content-wrap .pagination .page-numbers.current:hover,
+.archive-content-wrap .pagination .page-numbers.current:focus,
+.cart-collaterals .shop_table.shop_table_responsive .cart-subtotal:hover,
+.cart-collaterals .shop_table.shop_table_responsive .cart-subtotal:focus,
+.onsale:hover,
+.onsale:focus,
+.sticky-label:hover,
+.sticky-label:focus,
+#feature-slider-section .owl-prev:hover,
+#feature-slider-section .owl-prev:focus,
+#feature-slider-section .owl-next:hover,
+#feature-slider-section .owl-next:focus,
+.pagination .page-numbers.prev:hover,
+.pagination .page-numbers.prev:focus,
+.pagination .page-numbers.next:hover,
+.pagination .page-numbers.next:focus,
+.playlist-section .mejs-playpause-button:hover,
+.playlist-section .mejs-playpause-button:focus {
+  filter: brightness(105%);
+}
 
 @-webkit-keyframes gradientAnimation {
   0% {
@@ -14751,7 +14806,6 @@ button[type=submit],
 .view-more .button,
 .header-media .more-link .readmore,
 #feature-slider-section .more-link .readmore,
-.hero-section .more-link .readmore,
 #promotion-section .more-link .readmore,
 .pricing-section .more-link .readmore,
 .app-section .more-link .readmore,
@@ -14894,10 +14948,6 @@ button[type=submit].search-submit.search-focused:focus,
 #primary-search-wrapper .search-container button:hover,
 #primary-search-wrapper .search-container button:focus {
   color: #ffffff;
-}
-
-.hero-section .more-link .readmore:hover, .hero-section .more-link .readmore:focus {
-  filter: brightness(105%);
 }
 
 .woocommerce .product-container .button,
