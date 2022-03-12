@@ -14674,7 +14674,7 @@ nav.navigation.posts-navigation .nav-links a,
 .pagination .page-numbers.prev,
 .pagination .page-numbers.next,
 .playlist-section .mejs-playpause-button {
-  background-image: linear-gradient(to right, #388659, #59D48C);
+  background-image: linear-gradient(to right, #388659, #47A970);
 }
 
 .view-more .button,
@@ -14847,7 +14847,7 @@ span.sticky-post:before,
 .hover-add-to-cart .woocommerce .product-container .wc-forward,
 .onsale,
 #timeline-section .hentry:before {
-  background-image: linear-gradient(to right, #388659, #59D48C);
+  background-image: linear-gradient(to right, #388659, #47A970);
 }
 
 /* Button Text Hover Color */
