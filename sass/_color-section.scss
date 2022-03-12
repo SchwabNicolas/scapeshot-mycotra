@@ -670,13 +670,6 @@ body .wp-playlist-item,
 .button,
 button,
 input[type="submit"],
-.view-more .button,
-.header-media .more-link .readmore,
-#feature-slider-section .more-link .readmore,
-.hero-section .more-link .readmore,
-#promotion-section .more-link .readmore,
-.pricing-section .more-link .readmore,
-.app-section .more-link .readmore,
 #content #infinite-handle span button,
 nav.navigation.posts-navigation .nav-links a,
 .catch-instagram-feed-gallery-widget-wrapper .button,
@@ -694,6 +687,16 @@ nav.navigation.posts-navigation .nav-links a,
 .pagination .page-numbers.prev,
 .pagination .page-numbers.next,
 .playlist-section .mejs-playpause-button {
+  background-image: linear-gradient(to right, map-get($button-color, gradient-button-background-color-first), map-get($button-color, gradient-button-background-color-second));
+}
+
+.view-more .button,
+.header-media .more-link .readmore,
+#feature-slider-section .more-link .readmore,
+.hero-section .more-link .readmore,
+#promotion-section .more-link .readmore,
+.pricing-section .more-link .readmore,
+.app-section .more-link .readmore {
   background: linear-gradient(90deg, map-get($button-color, gradient-button-background-color-first), map-get($button-color, gradient-button-background-color-second)) !important;
   background-size: 400% 400%;
 
