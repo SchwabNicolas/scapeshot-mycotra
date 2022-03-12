@@ -54,7 +54,7 @@
     font-weight: 400;
     line-height: 1.75;
     padding: 10px;
-    text-transform: capitalize;
+    text-transform: none !important;
 }
 
 #social-footer-navigation,
@@ -72,7 +72,7 @@
 }
 
 .site-info {
-    text-transform: capitalize;
+    text-transform: none !important;
     text-align: center;
     padding: 10px;
 }
