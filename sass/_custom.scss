@@ -1,0 +1,14 @@
+/* Custom modifications to the theme */
+
+.site-header-main {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.textcenter {
+  text-align: center !important;
+}
+
+#wpgmza_map a {
+  color: map-get($theme-color, link-alt-color) !important;
+}

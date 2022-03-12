@@ -8,15 +8,6 @@
  Template:     scapeshot
  Version:      0.1.0
 */
-.site-header-main {
-  background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(5px);
-}
-
-.textcenter {
-  text-align: center !important;
-}
-
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -80,6 +71,8 @@
 	10.6 - ultra_wide
 
 11.0 - Color Selection
+
+12.0 - Custom modifications
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 ## Colors
@@ -14960,6 +14953,20 @@ body button.dropdown-toggle:hover,
 body button.dropdown-toggle:focus,
 body #fullscreen-menu-toggle {
   background-image: none;
+}
+
+/* Custom modifications to the theme */
+.site-header-main {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.textcenter {
+  text-align: center !important;
+}
+
+#wpgmza_map a {
+  color: #388659 !important;
 }
 
 /*# sourceMappingURL=style.css.map */

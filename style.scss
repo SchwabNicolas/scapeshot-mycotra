@@ -8,15 +8,6 @@
  Version:      0.1.0
 */
 
-.site-header-main {
-  background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(5px);
-}
-
-.textcenter {
-  text-align: center !important;
-}
-
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -80,6 +71,8 @@
 	10.6 - ultra_wide
 
 11.0 - Color Selection
+
+12.0 - Custom modifications
 --------------------------------------------------------------*/
 
 
@@ -133,3 +126,7 @@
 //** 11.0 - Color Selection **//
 
 @import 'sass/color-section';
+
+//** 12.0 - Custom modifications **//
+
+@import 'sass/custom';
