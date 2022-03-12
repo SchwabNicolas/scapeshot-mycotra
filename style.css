@@ -15030,4 +15030,8 @@ body #fullscreen-menu-toggle {
   text-decoration: none !important;
 }
 
+#search-toggle {
+  background-color: #000000 !important;
+}
+
 /*# sourceMappingURL=style.css.map */

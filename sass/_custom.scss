@@ -13,3 +13,7 @@
   color: map-get($theme-color, link-alt-color) !important;
   text-decoration: none !important;
 }
+
+#search-toggle {
+  background-color: map-get($theme-background-color, page-background-color) !important;
+}
