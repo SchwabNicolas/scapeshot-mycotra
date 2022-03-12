@@ -36,8 +36,8 @@ $theme-color: (
 $button-color: (
         gradient-button-background-color-first: #388659,
         gradient-button-background-color-second: #49D081,
-        gradient-button-background-hover-color-first: color.scale(#388659, $lightness: 10%),
-        gradient-button-background-hover-color-second: color.scale(#49D081, $lightness: 10%),
+        gradient-button-background-hover-color-first: color.scale(#388659, $lightness: 5%),
+        gradient-button-background-hover-color-second: color.scale(#49D081, $lightness: 5%),
         button-text-color: #ffffff,
         discrete-1: #388659,
         discrete-2: #47A970,

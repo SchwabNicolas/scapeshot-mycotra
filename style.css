@@ -14700,7 +14700,7 @@ nav.navigation.posts-navigation .nav-links a,
 .pricing-section .more-link .readmore:focus,
 .app-section .more-link .readmore:hover,
 .app-section .more-link .readmore:focus {
-  background: linear-gradient(90deg, #419d68, #5bd58e) !important;
+  background: linear-gradient(90deg, #3d9160, #52d287) !important;
 }
 
 @-webkit-keyframes gradientAnimation {
@@ -14880,7 +14880,7 @@ nav.navigation.posts-navigation .nav-links a:focus,
 .pagination .page-numbers.next:focus,
 .playlist-section .mejs-playpause-button:hover,
 .playlist-section .mejs-playpause-button:focus {
-  background: linear-gradient(90deg, #419d68, #5bd58e) !important;
+  background: linear-gradient(90deg, #3d9160, #52d287) !important;
 }
 
 .sticky-post,
@@ -14900,7 +14900,7 @@ button[type=submit]:focus,
 .search-form .search-field ~ .focus-border:after,
 .search-form .search-field ~ .focus-border i:before,
 .search-form .search-field ~ .focus-border i:after {
-  background-color: #5bd58e !important;
+  background-color: #52d287 !important;
 }
 
 /* Button Text Hover Color */
