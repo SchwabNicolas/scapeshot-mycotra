@@ -2130,6 +2130,14 @@ big {
 .hero-section .more-link {
   margin-top: 28px;
 }
+.hero-section .more-link:hover, .hero-section .more-link:focus {
+  background: rgba(0, 0, 0, 0.5) linear-gradient(90deg, #388659, #FFD48C) !important;
+  background-size: 400% 400%;
+  -webkit-animation: gradientAnimation 33s ease infinite;
+  -moz-animation: gradientAnimation 33s ease infinite;
+  -o-animation: gradientAnimation 33s ease infinite;
+  animation: gradientAnimation 33s ease infinite;
+}
 
 .hero-section .section-heading-wrapper,
 .app-section .section-heading-wrapper,

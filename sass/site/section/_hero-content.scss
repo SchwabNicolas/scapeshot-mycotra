@@ -3,60 +3,71 @@
  */
 
 #hero-section {
-    border: none;
-    text-align: center;
+  border: none;
+  text-align: center;
 }
 
 #hero-section .wrapper {
-    padding: 0 30px;
+  padding: 0 30px;
 }
 
 #hero-section .hentry {
-    padding: 0;
-    position: relative;
+  padding: 0;
+  position: relative;
 }
 
 .hero-content-wrapper .hentry-inner {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .hero-content-wrapper .post-thumbnail-background {
-    -webkit-box-shadow: 0 1px 30px rgba(0,0,0,0.1);
-    box-shadow: 0 1px 30px rgba(0,0,0,0.1);
-    content: "";
-    padding-bottom: 100%;
-    position: relative;
-    margin: 0;
-    -webkit-flex-basis: 100%;
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
+  -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+  content: "";
+  padding-bottom: 100%;
+  position: relative;
+  margin: 0;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
 }
 
 .hero-content-wrapper .entry-container {
-    padding: 28px 0 0;
-    margin: 0;
-    -webkit-flex-basis: 100%;
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
+  padding: 28px 0 0;
+  margin: 0;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
 }
 
 .hero-section .more-link .readmore svg {
-    display: none;
+  display: none;
 }
 
 .hero-section .more-link {
-    margin-top: 28px;
+  margin-top: 28px;
+
+  &:hover,
+  &:focus {
+    background: rgba(0, 0, 0, 0.5) linear-gradient(90deg, map-get($button-color, gradient-button-background-color-first), map-get($button-color, gradient-button-background-color-second)) !important;
+    background-size: 400% 400%;
+
+    -webkit-animation: gradientAnimation 33s ease infinite;
+    -moz-animation: gradientAnimation 33s ease infinite;
+    -o-animation: gradientAnimation 33s ease infinite;
+    animation: gradientAnimation 33s ease infinite;
+  }
 }
 
 .hero-section .section-heading-wrapper,
 .app-section .section-heading-wrapper,
 .promotion-section .section-heading-wrapper {
-    padding: 0;
-    text-align: inherit;
+  padding: 0;
+  text-align: inherit;
 }
