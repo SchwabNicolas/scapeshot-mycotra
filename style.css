@@ -14208,11 +14208,12 @@ button[type=submit].search-submit,
 }
 
 #floating-social .social-navigation a:hover,
-#floating-social .social-navigation a:focus,
-#fullscreen-menu-toggle {
+#floating-social .social-navigation a:focus {
   background-color: #000000;
+  color: #ffffff;
 }
 
+#fullscreen-menu-toggle,
 body.search-active #primary-search-wrapper .search-toggle {
   background-color: transparent;
 }

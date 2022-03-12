@@ -249,11 +249,12 @@ button[type="submit"].search-submit,
 
 
 #floating-social .social-navigation a:hover,
-#floating-social .social-navigation a:focus,
-#fullscreen-menu-toggle {
+#floating-social .social-navigation a:focus {
   background-color: map-get($theme-background-color, page-background-color);
+  color: map-get($theme-color, heading-text-color);
 }
 
+#fullscreen-menu-toggle,
 body.search-active #primary-search-wrapper .search-toggle {
   background-color: transparent;
 }
