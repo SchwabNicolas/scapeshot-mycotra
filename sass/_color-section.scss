@@ -2,6 +2,9 @@
 # Colors
 --------------------------------------------------------------*/
 
+/* Import */
+@use "sass:color";
+
 /* Background Color */
 
 body {
@@ -709,7 +712,7 @@ nav.navigation.posts-navigation .nav-links a,
 
   &:hover,
   &:focus {
-    filter: brightness(105%);
+    background: linear-gradient(90deg, map-get($button-color, gradient-button-background-hover-color-first), map-get($button-color, gradient-button-background-hover-color-second)) !important;
   }
 }
 
@@ -848,6 +851,11 @@ nav.navigation.posts-navigation .nav-links a,
 .pagination .page-numbers.next,
 .playlist-section .mejs-playpause-button {
   color: map-get($button-color, button-text-color);
+
+  &:hover,
+  &:focus {
+    background: linear-gradient(90deg, map-get($button-color, gradient-button-background-hover-color-first), map-get($button-color, gradient-button-background-hover-color-second)) !important;
+  }
 }
 
 .sticky-post,

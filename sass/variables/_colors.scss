@@ -2,6 +2,9 @@
  * 1.0 - Variables
  */
 
+/* Import */
+
+@use 'sass:color';
 
 /**
  * 1.1 - Colors
@@ -32,7 +35,9 @@ $theme-color: (
 
 $button-color: (
         gradient-button-background-color-first: #388659,
-        gradient-button-background-color-second: #32C36E,
+        gradient-button-background-color-second: #49D081,
+        gradient-button-background-hover-color-first: color.scale(#388659, $lightness: 10%),
+        gradient-button-background-hover-color-second: color.scale(#49D081, $lightness: 10%),
         button-text-color: #ffffff,
         discrete-1: #388659,
         discrete-2: #47A970,

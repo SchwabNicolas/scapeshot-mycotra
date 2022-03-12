@@ -11,3 +11,4 @@ function mycotra_locale()
 {
     load_child_theme_textdomain('scapeshot', get_stylesheet_directory() . '/languages');
 }
+
