@@ -9518,7 +9518,7 @@ h6 {
   letter-spacing: 0;
   padding: 0;
   text-decoration: none;
-  text-transform: capitalize;
+  text-transform: none !important;
   word-wrap: break-word;
 }
 
@@ -9642,7 +9642,7 @@ h6 {
 
 .entry-meta {
   line-height: 1.62;
-  text-transform: capitalize;
+  text-transform: none !important;
 }
 
 .entry-meta a {
