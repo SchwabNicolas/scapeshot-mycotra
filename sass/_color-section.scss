@@ -817,7 +817,7 @@ span.onsale,
 button[type="submit"].search-submit.search-focused,
 .demo_store,
 #primary-search-wrapper .search-container button.search-focused {
-  color: map-get($button-color, button-text-color);
+  color: map-get($button-color, button-text-color) !important;
 }
 
 .absolute-header .bars {
@@ -866,7 +866,7 @@ span.sticky-post:before,
 .hover-add-to-cart .woocommerce .product-container .wc-forward,
 .onsale,
 #timeline-section .hentry:before {
-  background-image: linear-gradient(to right, map-get($button-color, discrete-1), map-get($button-color, discrete-2));
+  background-image: linear-gradient(to right, map-get($button-color, discrete-1), map-get($button-color, discrete-2)) !important;
 }
 
 button[type="submit"]:hover,
@@ -875,7 +875,7 @@ button[type="submit"]:focus,
 .search-form .search-field ~ .focus-border:after,
 .search-form .search-field ~ .focus-border i:before,
 .search-form .search-field ~ .focus-border i:after {
-  background-color: map-get($button-color, gradient-button-background-hover-color-second);
+  background-color: map-get($button-color, gradient-button-background-hover-color-second) !important;
 }
 
 /* Button Text Hover Color */
@@ -907,7 +907,7 @@ button[type="submit"].search-submit.search-focused,
 #primary-search-wrapper .search-container button {
   &:hover,
   &:focus {
-    color: map-get($button-color, button-hover-text-color);
+    color: map-get($button-color, button-hover-text-color) !important;
   }
 }
 
