@@ -786,13 +786,13 @@ figure.wp-block-table thead {
 /* Safety Orange Color ---------------------
 ------------------------------------ */
 
-.wp-block-pullquote.is-style-solid-color blockquote.has-safety-orange-color cite,
+/* .wp-block-pullquote.is-style-solid-color blockquote.has-safety-orange-color cite,
 .wp-block-button .wp-block-button__link.has-safety-orange-color,
 .wp-block-button.is-style-outline > .wp-block-button__link.has-safety-orange-color,
 .wp-block-button__link.is-style-outline.has-safety-orange-color,
 .has-safety-orange-color {
 	color: #306346;
-}
+} */
 
 .wp-block-pullquote.is-style-solid-color.has-safety-orange-background-color,
 .wp-block-button .wp-block-button__link.has-safety-orange-background-color,
